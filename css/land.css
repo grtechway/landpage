@@ -1,0 +1,114 @@
+.txt-center{
+    text-align: center;
+}
+
+body{
+    color: black;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.font{
+    color: black;
+    font-family: 'PT Sans', sans-serif;
+}
+
+
+.pad-top{
+    padding-top: 3%;
+}
+
+.pad-bottom{
+    padding-bottom: 3%;
+}
+
+.margin-top{
+    margin-top: 6%;
+}
+
+.mob{
+    display: none;
+}
+
+#style-card{
+    max-width: 30rem;
+    position:absolute;
+    right:80px;
+    top:100px;
+    width:100%
+}
+
+#style-logo{
+    position:absolute;
+    top:120px;
+}
+
+.style-oracle{
+    padding-top: 15%;
+}
+
+.vertical-center{
+    padding-top: 25%;
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+
+@media (max-width: 700px) {
+
+    .lap{
+        display: none;
+    }
+
+    .mob{
+        display: block;
+    }
+
+    .bg-main{
+        background-image: url("../images/img01-mob.jpg");
+        height: 300px;
+        width: 100%;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1000px)  {
+    .lap{
+        display: none;
+    }
+
+    .mob{
+        display: block;
+    }
+
+    .bg-main{
+        background-image: url("../images/img01-tab.jpg");
+        height: 500px;
+        width: 100%;
+    } 
+
+    .align-left-margin{
+        margin-left: 15%;
+    }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1300px)  {
+    
+    #style-card{
+        max-width: 20rem;
+        position:absolute;
+        right:80px;
+        top:80px;
+        width:100%
+    }
+
+    #style-content{
+        padding-top: 20%;
+    }
+
+    #style-logo{
+        top: 60px;
+    }
+
+}
